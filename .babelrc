@@ -1,0 +1,12 @@
+{
+  "presets": ["@babel/preset-env"],
+  "plugins": [
+    [
+      //一个可以重复使用babel（的辅助函数）注入的帮助程序，
+      "@babel/plugin-transform-runtime",
+      {
+        "corejs": 3
+      }
+    ]
+  ]
+}
